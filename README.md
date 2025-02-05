@@ -1,0 +1,18 @@
+# Metasploitable 2 - Vulnerability Assessment and Exploitation
+
+## **Introduction**
+Metasploitable 2 is a purpose-built, vulnerable virtual machine designed for security training and penetration testing. This repository documents the systematic assessment and exploitation of the various vulnerabilities present in Metasploitable 2.  
+
+The goal of this project is to:
+- Identify open ports and the services running on them.
+- Analyze the vulnerabilities associated with each service.
+- Exploit the vulnerabilities to gain deeper insights into real-world attack methodologies.
+- Document the findings for educational purposes.
+
+By exploring this repository, you will gain an understanding of:
+1. Common security misconfigurations.
+2. Techniques used by attackers to exploit vulnerabilities.
+3. The importance of proactive security measures in real-world environments.
+
+This project is strictly for **educational purposes** and should only be used in authorized, controlled environments.
+
