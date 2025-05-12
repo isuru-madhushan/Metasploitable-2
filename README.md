@@ -1,18 +1,18 @@
 <pre>
 <br>
-                          ███╗   ███╗ ███████╗████████╗ █████╗ ███████╗  ██████╗ ██╗      ██████╗ ██╗████████╗ 
-                          ████╗ ████║ ██╔════╝╚══██╔══╝██╔══██╗██╔════╝  ██╔══██╗██║     ██╔═══██╗██║╚══██╔══╝
-                          ██╔████╔██║ █████╗     ██║   ███████║███████╗  ██████╔╝██║     ██║   ██║██║   ██║  
-                          ██║╚██╔╝██║ ██╔══╝     ██║   ██╔══██║╚════██║  ██╔═══╝ ██║     ██║   ██║██║   ██║   
-                          ██║ ╚═╝ ██║ ███████╗   ██║   ██║  ██║███████║  ██║     ███████╗╚██████╔╝██║   ██║   
-                          ╚═╝     ╚═╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝  ╚═╝     ╚══════╝ ╚═════╝ ╚═╝   ╚═╝  
+███╗   ███╗ ███████╗████████╗ █████╗ ███████╗  ██████╗ ██╗      ██████╗ ██╗████████╗ 
+████╗ ████║ ██╔════╝╚══██╔══╝██╔══██╗██╔════╝  ██╔══██╗██║     ██╔═══██╗██║╚══██╔══╝
+██╔████╔██║ █████╗     ██║   ███████║███████╗  ██████╔╝██║     ██║   ██║██║   ██║  
+██║╚██╔╝██║ ██╔══╝     ██║   ██╔══██║╚════██║  ██╔═══╝ ██║     ██║   ██║██║   ██║   
+██║ ╚═╝ ██║ ███████╗   ██║   ██║  ██║███████║  ██║     ███████╗╚██████╔╝██║   ██║   
+╚═╝     ╚═╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝  ╚═╝     ╚══════╝ ╚═════╝ ╚═╝   ╚═╝  
                                                                                                               
 </pre>                                            
 
 
 <br>
 
-## ----------------- Metasploitable 2 - Vulnerability Assessment and Exploitation ------------------
+## Metasploitable 2 - Vulnerability Assessment and Exploitation 
 
 ### Introduction
 Metasploitable 2 is a purpose-built, vulnerable virtual machine designed for security training and penetration testing. This repository documents the systematic assessment and exploitation of the various vulnerabilities present in Metasploitable 2.  
@@ -31,7 +31,7 @@ Metasploitable 2 is a purpose-built, vulnerable virtual machine designed for sec
 
 <br>
 
-## ------------------------------ Metaspoitable 2 Setup Download -----------------------------------
+## Metaspoitable 2 Setup Download
 <br>
 For this pentest audit we are going to use this Metasploit instance :
 
