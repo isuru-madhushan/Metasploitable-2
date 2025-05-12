@@ -12,7 +12,7 @@
 
 <br>
 
-## Metasploitable 2 - Vulnerability Assessment and Exploitation 
+## <p align="center">Metasploitable 2 - Vulnerability Assessment and Exploitation</p>
 
 ### Introduction
 Metasploitable 2 is a purpose-built, vulnerable virtual machine designed for security training and penetration testing. This repository documents the systematic assessment and exploitation of the various vulnerabilities present in Metasploitable 2.  
@@ -31,7 +31,7 @@ Metasploitable 2 is a purpose-built, vulnerable virtual machine designed for sec
 
 <br>
 
-## Metaspoitable 2 Setup Download
+## <p align="center">Metaspoitable 2 Setup Download</p>
 <br>
 For this pentest audit we are going to use this Metasploit instance :
 
@@ -41,5 +41,5 @@ For this pentest audit we are going to use this Metasploit instance :
 
 <br>
 
-### This project is strictly for **educational purposes** and should only be used in authorized, controlled environments.
+#### <p align="center"> This project is strictly for EDUCATIONAL PURPOSES and should only be used in authorized, controlled environments.</p>
 
