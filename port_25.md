@@ -1,7 +1,7 @@
 <pre>25/tcp   open  smtp        Postfix smtpd</pre>
 
-user enumaration using SMTP
-using metaspolit framework auxiliary
+## user enumaration using SMTP
+## using metaspolit framework auxiliary
 
 <pre>msf6 > search smtp_enum</pre>
 
@@ -35,6 +35,8 @@ Interact with a module by name or index. For example info 0, use 0 or use auxili
 <pre>msf6 auxiliary(scanner/smtp/smtp_enum) > set rhosts A.B.C.D</pre>
 
 <pre>msf6 auxiliary(scanner/smtp/smtp_enum) > exploit</pre>
+
+##  User Enumaration Detatils
    
 <pre>[*] 192.168.161.131:25    - 192.168.161.131:25 Banner: 220 metasploitable.localdomain ESMTP Postfix (Ubuntu)
 
@@ -52,5 +54,5 @@ Interact with a module by name or index. For example info 0, use 0 or use auxili
 VRFY daemon
 252 2.0.0 daemon
 VRFY games
-252 2.0.0 games</pre>>
+252 2.0.0 games</pre>
 
