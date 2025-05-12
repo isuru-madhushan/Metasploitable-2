@@ -1,4 +1,18 @@
-# Metasploitable 2 - Vulnerability Assessment and Exploitation
+<pre>
+<br>
+                          ███╗   ███╗ ███████╗████████╗ █████╗ ███████╗  ██████╗ ██╗      ██████╗ ██╗████████╗ 
+                          ████╗ ████║ ██╔════╝╚══██╔══╝██╔══██╗██╔════╝  ██╔══██╗██║     ██╔═══██╗██║╚══██╔══╝
+                          ██╔████╔██║ █████╗     ██║   ███████║███████╗  ██████╔╝██║     ██║   ██║██║   ██║  
+                          ██║╚██╔╝██║ ██╔══╝     ██║   ██╔══██║╚════██║  ██╔═══╝ ██║     ██║   ██║██║   ██║   
+                          ██║ ╚═╝ ██║ ███████╗   ██║   ██║  ██║███████║  ██║     ███████╗╚██████╔╝██║   ██║   
+                          ╚═╝     ╚═╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝  ╚═╝     ╚══════╝ ╚═════╝ ╚═╝   ╚═╝  
+                                                                                                              
+</pre>                                            
+
+
+<br>
+
+## ----------------- Metasploitable 2 - Vulnerability Assessment and Exploitation ------------------
 
 ### Introduction
 Metasploitable 2 is a purpose-built, vulnerable virtual machine designed for security training and penetration testing. This repository documents the systematic assessment and exploitation of the various vulnerabilities present in Metasploitable 2.  
@@ -14,7 +28,18 @@ Metasploitable 2 is a purpose-built, vulnerable virtual machine designed for sec
 
 - Common security misconfigurations.
 - Techniques used by attackers to exploit vulnerabilities.
-- The importance of proactive security measures in real-world environments.
 
-This project is strictly for **educational purposes** and should only be used in authorized, controlled environments.
+<br>
+
+## ------------------------------ Metaspoitable 2 Setup Download -----------------------------------
+<br>
+For this pentest audit we are going to use this Metasploit instance :
+
+- https://information.rapid7.com/metasploitable-download.html</a>
+
+- https://sourceforge.net/projects/metasploitable/
+
+<br>
+
+### This project is strictly for **educational purposes** and should only be used in authorized, controlled environments.
 
